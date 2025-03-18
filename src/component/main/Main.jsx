@@ -73,9 +73,18 @@ export default function Main() {
 
                     </div>
                 </div>
-                <div className="container2  flex  pl-32 pt-10  w-[50%]  h-[100%] ">
-                    <img className='w-[30rem] h-[30rem]' src="https://png.pngtree.com/png-clipart/20231104/original/pngtree-happy-corporate-business-professional-one-man-clipart-white-background-png-image_13504468.png" alt="" />
+                <div className="container2 relative flex pl-32 rounded-xl pt-10 w-[50%] h-[100%] overflow-hidden">
+
+                <div className="relative w-[30rem]  h-[30rem] rounded-xl overflow-hidden">
+      <div className="slideshow">
+        <img className="slide w-full h-full object-cover rounded-xl" src="/User.jpg" alt="User1" />
+        <img className="slide w-full h-full object-cover rounded-xl" src="/User2.jpg" alt="User2" />
+        <img className="slide w-full h-full object-cover rounded-xl" src="/User3.jpg" alt="User3" />
+      </div>
+    </div>
                 </div>
+
+
             </div >
 
         </>

@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ProjectDetail from './component/TechStack/ProjectDetail.jsx';
 import ECommerce from './component/TechStack/ECommerce.jsx';
+import UserDetail from './component/UserDetail/UserDetail.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: '/E-commerce',
     element: <ECommerce />,   // Add your GitHub page component
+  },
+  {
+    path: '/developer',
+    element: <UserDetail />,   // Add your GitHub page component
   },
 ]);
 

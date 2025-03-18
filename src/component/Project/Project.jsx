@@ -39,7 +39,7 @@ export default function Project() {
                         <div className="details">
                             <h1 className='text-white text-3xl m-5'>Onsko E-commerce</h1>
                             <p className='text-white px-6'> This is a full-fledged E-commerce platform built using MERN stack (MongoDB, Express.js, React.js, Node.js) with modern features like secure authentication, payment integration, cart management, and admin dashboard. It provides a seamless shopping experience with real-time cart</p>
-                            <div className="div   flex justify-center gap-4 mt-2 items-center h-auto">
+                            <div className="div   flex justify-center gap-4 mt-3 items-center h-auto">
                           <button onClick={handleURL} className='border-2  w-32 text-white rounded-lg p-2 flex justify-center items-center'><GithubIcon/> Github</button>
                              <button onClick={()=>navigate("/E-commerce")} className='border-2   w-32 text-white rounded-lg p-2'>Show Me</button>
                             </div>
