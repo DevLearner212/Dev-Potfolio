@@ -44,9 +44,9 @@ export default function UserDetail() {
               <h3 className="text-xl font-semibold flex items-center"><ProjectorIcon className="mr-2" /> Projects</h3>
               <ul className="list-disc pl-6 text-gray-600 mt-2">
                 <li>E-commerce platform with payment integration</li>
-                <li>Real-time collaboration tool</li>
+                {/* <li>Real-time collaboration tool</li> */}
                 <li>YouTube backend clone</li>
-                <li>Cloud-based file management system</li>
+                {/* <li>Cloud-based file management system</li> */}
               </ul>
             </div>
 
